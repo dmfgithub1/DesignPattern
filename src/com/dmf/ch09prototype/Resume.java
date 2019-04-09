@@ -4,6 +4,7 @@ package com.dmf.ch09prototype;
  * @date 2019年3月18日
  * @Descript 简历类
  */
+//克隆的对象必须实现Cloneable这个接口
 public class Resume implements Cloneable{
 
 	private String name;
